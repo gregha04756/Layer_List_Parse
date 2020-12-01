@@ -1,0 +1,254 @@
+"0"                on       -P   7 (white)        "Continuous"   Default
+"13701_Relief_Valve_30PSI_0.75_in_MPTxFPT_Apollo|13701 Relief Valve" on       -P  40                "Continuous"   Default     Xdep: "13701_Relief_Valve_30PSI_0.75_in_MPTxFPT_Apollo"
+"13701_Relief_Valve_30PSI_0.75_in_MPTxFPT_Apollo|13701 Relief Valve Cap" on       -P   5 (blue)         "Continuous"   Default     Xdep: "13701_Relief_Valve_30PSI_0.75_in_MPTxFPT_Apollo"
+"13701_Relief_Valve_30PSI_0.75_in_MPTxFPT_Apollo|13701 Relief Valve Handle" on       -P   9                "Continuous"   Default     Xdep: "13701_Relief_Valve_30PSI_0.75_in_MPTxFPT_Apollo"
+"81613_NTI_Logo_Nameplate|81613 NTI plaque facing" on       -P 254                "Continuous"   Default     Xdep: "81613_NTI_Logo_Nameplate"
+
+"81613_NTI_Logo_Nameplate|81613 NTI plaque substrate" on       -P   7 (white)        "Continuous"   Default     Xdep: "81613_NTI_Logo_Nameplate"
+"81613_NTI_Logo_Nameplate|81613 NTI Swoop Facing" on       -P   1 (red)          "Continuous"   Default     Xdep: "81613_NTI_Logo_Nameplate"
+"81613_NTI_Logo_Nameplate|83604 Outdoor Sensor Back" on       -P   7 (white)        "Continuous"   Default     Xdep: "81613_NTI_Logo_Nameplate"
+"81849_Nutsert_10-24_0.475_lg_A-K_Series_Open_End|81849_Nutsert_10-24_0.475_lg_A-K_Series_Open_End" on       -P  42                "Continuous"   Default     Xdep: "81849_Nutsert_10-24_0.475_lg_A-K_Series_Open_End"
+"82239_Latch_70-10-301-12|82239_Latch_70-10-301-12" on       -P   7 (white)        "Continuous"   Default     Xdep: "82239_Latch_70-10-301-12"
+
+"82239_Latch_Keeper_70-10-301-12|82239 Latch Keeper 70-10-301-12" on       -P 250                "Continuous"   Default     Xdep: "82239_Latch_Keeper_70-10-301-12"
+"82759_Tee_1x1x0.75_FPT_Brass|82759 Tee_1x1x0.75_FPT_Brass" on       -P  40                "Continuous"   Default     Xdep: "82759_Tee_1x1x0.75_FPT_Brass"
+"82766_Blower_Gasket_Ti100-150|82766 Blower Gasket" on       -P 250                "Continuous"   Default     Xdep: "82766_Blower_Gasket_Ti100-150"
+"82998_Screw_#8 X .375_HEX|82998 Screw #8 X .375 HEX" on       -P   9                "Continuous"   Default     Xdep: "82998_Screw_#8 X .375_HEX"
+"83044 0.875 in. OD 0.625 in. ID PVC Condensate Tube 16.25 in. lg." on       -P 151                "Continuous"   Default
+
+"83135_Gear_Clamp_0.4375-1_HC5-10|83135 Gear Clamp 0.4375 in. to 1.0 in. SS HC5-10" on       -P 255                "Continuous"   Default     Xdep: "83135_Gear_Clamp_0.4375-1_HC5-10"
+"83152_Hose_Barb_Adapter_0.125_MPT_0.1875_ID_Tube_Nylon_AC2013|83152_Hose_Barb_Adapter_0.125_MPT_0.1875_ID_Tube_Nylon" on       -P   9                "Continuous"   Default     Xdep: "83152_Hose_Barb_Adapter_0.125_MPT_0.1875_ID_Tube_Nylon_AC2013"
+"83425_Elbow_1.5_in_90_Street_PVC_DWV|83425 Elbow 1.5 in. 90 Street PVC" on       -P   9                "Continuous"   Default     Xdep: "83425_Elbow_1.5_in_90_Street_PVC_DWV"
+Press ENTER to continue:
+"83505_Kennard_1020T_Grommet|Kennard 1020-T Grommet" on       -P 251                "Continuous"   Default     Xdep: "83505_Kennard_1020T_Grommet"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Ball" on       -P   5 (blue)         "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+
+"83510_Groppalli_Condensate_Trap|Condensate Trap Ball Stop" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Ball Stop O-ring" on       -P 250                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Barb Fitting" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Body" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Bottom Cap" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+
+"83510_Groppalli_Condensate_Trap|Condensate Trap Bottom Cap Gasket" on       -P 250                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Corrugated Drain Tube" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Drain Tube Retainer" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Drain Tube Seal" on       -P 250                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Condensate Trap Fill Plug" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+
+"83510_Groppalli_Condensate_Trap|Condensate Trap Top Retainer" on       -P   9                "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83510_Groppalli_Condensate_Trap|Viewport Border" on            7 (white)        "Continuous"   Default     Xdep: "83510_Groppalli_Condensate_Trap"
+"83817_Screw_10-24_0.5_lg_Philips_Pan_Hd_Steel_Zinc|83817_Screw_10-24_0.5_lg_Philips_Pan_Hd_Steel_Zinc" on       -P   9                "Continuous"   Default     Xdep: "83817_Screw_10-24_0.5_lg_Philips_Pan_Hd_Steel_Zinc"
+"83970_Screw_#14_0.375_Steel_Zinc_Plated|Screw #14 x .375 HEX" on       -P   9                "Continuous"   Default     Xdep: "83970_Screw_#14_0.375_Steel_Zinc_Plated"
+"84095_Dome_Plug_Black_0.85|84095 Dome Plug Black 0.875 in." on       -P   7 (white)        "Continuous"   Default     Xdep: "84095_Dome_Plug_Black_0.85"
+
+"84214_Diaphragm_Grommet_0.5_in|84214 Diaphragm Grommet Black 0.5 in." on       -P 250                "Continuous"   Default     Xdep: "84214_Diaphragm_Grommet_0.5_in"
+Press ENTER to continue:
+"84307_Bushing_2_inx1.5_in_Sch_40_PVC_DWV|84307 Bushing 2 x 1.5 Sch. 40 PVC DWV" on       -P   9                "Continuous"   Default     Xdep: "84307_Bushing_2_inx1.5_in_Sch_40_PVC_DWV"
+"84422_Switch_Rocker_Round_Arcolectric_R13112ABBB_602AW|Switch On-Off E-Switch R3112 Body" on       -P   7 (white)        "Continuous"   Default     Xdep: "84422_Switch_Rocker_Round_Arcolectric_R13112ABBB_602AW"
+"84423_Arcolectric_NEMA_Outlet_0709-PQ|Convenience Outlet" on       -P   7 (white)        "Continuous"   Default     Xdep: "84423_Arcolectric_NEMA_Outlet_0709-PQ"
+"84439_Grommet_Vinyl_Black_1.25_IPS_Kennard_1625|84439 Kennard 1625 Grommet" on       -P 251                "Continuous"   Default     Xdep: "84439_Grommet_Vinyl_Black_1.25_IPS_Kennard_1625"
+
+"84452_Screw_#4_0.25_in_lg_Steel_Zinc_Philips_Trilobe_Plastic|84452 Screw_#4_0.25_in_lg_Steel_Zinc_Philips_Trilobe_Plastic" on       -P   9                "Continuous"   Default     Xdep: "84452_Screw_#4_0.25_in_lg_Steel_Zinc_Philips_Trilobe_Plastic"
+"84469_Screw_#8_0.625_lg_Flat_Head_Philips_Steel_Zinc_B_Point|84469_Screw_#8_0.625_lg_Flat_Head_Philips_Steel_Zinc_B_Point" on       -P   9                "Continuous"   Default     Xdep: "84469_Screw_#8_0.625_lg_Flat_Head_Philips_Steel_Zinc_B_Point"
+"84474_Taco_Auto_Air_Vent_0.5_in_NPT|84474 Taco Hy-Vent Auto Air Vent" on       -P  40                "Continuous"   Default     Xdep: "84474_Taco_Auto_Air_Vent_0.5_in_NPT"
+"84476_Molex_Eurostyle_39100-1208|84476 Molex 39100-1208" on       -P   9                "Continuous"   Default     Xdep: "84476_Molex_Eurostyle_39100-1208"
+"84479_Elbow_90_Street_0.75_Brass|84479 Elbow_90_Street_0.75_Brass" on       -P  40                "Continuous"   Default     Xdep: "84479_Elbow_90_Street_0.75_Brass"
+
+"84480_Tft_display_bezel_front|Display Bezel Front R6a" on       -P 251                "Continuous"   Default     Xdep: "84480_Tft_display_bezel_front"
+"84503_Filter_Foam_2.25_in_IDx2.75_in_ODx2.88_in_lg|84503 Foam Filter 2.25 in. ID x 2.75 in. OD x 2.88 in. lg." on       -P 252                "Continuous"   Default     Xdep: "84503_Filter_Foam_2.25_in_IDx2.75_in_ODx2.88_in_lg"
+"84527_Elbow_2_in_45_PVC_DWV|84527 Elbow 2 in. 45 PVC DWV" on       -P   9                "Continuous"   Default     Xdep: "84527_Elbow_2_in_45_PVC_DWV"
+"84528_Coupling_2_in_PVC_DWV|84528_Coupling_2_in_PVC_DWV" on       -P   9                "Continuous"   Default     Xdep: "84528_Coupling_2_in_PVC_DWV"
+"84597_Screw_M5x12mm_lg_Hex_Washer_Steel_Zinc|84597_Screw_M5x12mm_lg_Hex_Washer_Steel_Zinc" on       -P   9                "Continuous"   Default     Xdep: "84597_Screw_M5x12mm_lg_Hex_Washer_Steel_Zinc"
+
+"84676_Tx_Isothermic_5+1_HX_ASME_Giannoni_nnnn-nn-nnn-nn_AC2013|84676_Tx_Isothermic_5+1_HX_ASME_Giannoni_nnnn-nn-nnn-nn_AC2013" on       -P 250                "Continuous"   Default     Xdep: "84676_Tx_Isothermic_5+1_HX_ASME_Giannoni_nnnn-nn-nnn-nn_AC2013"
+"84712_Ignition_Control_ebm_argusvision_210MN14_11Ri10_AC2013|84712_Ignition_Control_ebm_argusvision_210MN14_11Ri10" on       -P   7 (white)        "Continuous"   Default     Xdep: "84712_Ignition_Control_ebm_argusvision_210MN14_11Ri10_AC2013"
+"84729_Isothermic_5+1_Support_Bracket|37228-0A_PATTE_ISO_6X34_ASM" on       -P 254                "Continuous"   Default     Xdep: "84729_Isothermic_5+1_Support_Bracket"
+"84730_Clamp_Fixing_Isothermic_GM10-15-714-03|84730 Clamp Fixing Isothermic GM10-15-714-03" on       -P   9                "Continuous"   Default     Xdep: "84730_Clamp_Fixing_Isothermic_GM10-15-714-03"
+"84731_Screw_M4_6mm_Steel_Zinc_Thread_Cutting|84731_Screw_M4_6mm_Steel_Zinc_Thread_Cutting" on       -P   9                "Continuous"   Default     Xdep: "84731_Screw_M4_6mm_Steel_Zinc_Thread_Cutting"
+Press ENTER to continue:
+
+"84745_Grundfos_96577492_Pressure_Sensor_RPS4_AC2013|84745_Grundfos_96577492_Pressure_Sensor_RPS4" on       -P 250                "Continuous"   Default     Xdep: "84745_Grundfos_96577492_Pressure_Sensor_RPS4_AC2013"
+"84755_Coupling_CK115_1.5_in._CI_To_1.25 in._PVC|84755 Coupling  CK115 1.5 in. CI To 1.25 in. PVC DWV" on       -P 250                "Continuous"   Default     Xdep: "84755_Coupling_CK115_1.5_in._CI_To_1.25 in._PVC"
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_NRV118_Gas_Valve" on       -P 253                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_NRV118_Gas_Valve_Inlet_Connector_0.5_in_FPT" on       -P  40                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_NRV118_Gas_Valve_Inlet_Connector_O-ring" on       -P 250                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_NRV118_Gas_Valve_Orifice_Grommet" on       -P 250                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_NRV118_LP_Orifice" on       -P  40                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_NRV118_NRG118_Blower" on       -P 253                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_NRV118_Venturi" on       -P 253                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+"84762_Blower_Gas_Valve_Venturi_Assy_AC2013|84762_Screw_M4x12mm_Hex_Socket_Head_Steel_Zinc" on       -P   9                "Continuous"   Default     Xdep: "84762_Blower_Gas_Valve_Venturi_Assy_AC2013"
+
+"84764_ArgusVision_210LB_Display(900LB01_3R)|BUTTONS" on       -P   8                "Continuous"   Default     Xdep: "84764_ArgusVision_210LB_Display(900LB01_3R)"
+"84764_ArgusVision_210LB_Display(900LB01_3R)|HEADERS" on       -P   9                "Continuous"   Default     Xdep: "84764_ArgusVision_210LB_Display(900LB01_3R)"
+"84764_ArgusVision_210LB_Display(900LB01_3R)|LCD" on       -P   9                "Continuous"   Default     Xdep: "84764_ArgusVision_210LB_Display(900LB01_3R)"
+"84764_ArgusVision_210LB_Display(900LB01_3R)|PCB" on       -P  84                "Continuous"   Default     Xdep: "84764_ArgusVision_210LB_Display(900LB01_3R)"
+"84764_ArgusVision_210LB_Display(900LB01_3R)|SMC" on       -P 250                "Continuous"   Default     Xdep: "84764_ArgusVision_210LB_Display(900LB01_3R)"
+
+"84764_ArgusVision_210LB_Display(900LB01_3R)|TERMINAL BLOCK" on       -P   5 (blue)         "Continuous"   Default     Xdep: "84764_ArgusVision_210LB_Display(900LB01_3R)"
+"84780_Flue_Sensor_Dual_Thermistor_Tasseron_AC2013|84780 Tasseron Flue Sensor Body" on       -P 250                "Continuous"   Default     Xdep: "84780_Flue_Sensor_Dual_Thermistor_Tasseron_AC2013"
+"84780_Flue_Sensor_Dual_Thermistor_Tasseron_AC2013|84780 Tasseron Flue Sensor Connector" on       -P   9                "Continuous"   Default     Xdep: "84780_Flue_Sensor_Dual_Thermistor_Tasseron_AC2013"
+Press ENTER to continue:
+"84780_Flue_Sensor_Dual_Thermistor_Tasseron_AC2013|84780 Tasseron Flue Sensor Tube" on       -P   9                "Continuous"   Default     Xdep: "84780_Flue_Sensor_Dual_Thermistor_Tasseron_AC2013"
+"84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013|84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_Body" on       -P  10                "Continuous"   Default     Xdep: "84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013"
+
+"84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013|84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_Clip" on       -P   9                "Continuous"   Default     Xdep: "84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013"
+"84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013|84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_Connector_Shell" on       -P 255                "Continuous"   Default     Xdep: "84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013"
+"84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013|84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_Micro-Fit_Housing" on       -P 250                "Continuous"   Default     Xdep: "84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013"
+"84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013|84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_Spring Clip" on       -P 252                "Continuous"   Default     Xdep: "84781_Sensor_Tx_Outlet_Met_Lock_Tasseron_TSC1AI6_AC2013"
+"84785_Tx_Flue_Outlet_PP_Test_Port_Centrotherm_AC2013|84785_Tx_Flue_Outlet_PP_Test_Port_Centrotherm" on       -P 253                "Continuous"   Default     Xdep: "84785_Tx_Flue_Outlet_PP_Test_Port_Centrotherm_AC2013"
+
+"84786_Tx_Air_Inlet_PP_Centrotherm_AC2013|84786_Tx_Air_Inlet_PP_Centrotherm" on       -P 253                "Continuous"   Default     Xdep: "84786_Tx_Air_Inlet_PP_Centrotherm_AC2013"
+"84789_Cotter_Pin_2.5_in_lgx0.125_dia_Steel_Zinc|84789 Cotter pin 2.5 in. lg. x 0.125 dia. Steel Zinc" on       -P   9                "Continuous"   Default     Xdep: "84789_Cotter_Pin_2.5_in_lgx0.125_dia_Steel_Zinc"
+"84801_Tx_Air_Vent_Adapter|84801 Air Vent Adapter" on       -P  42                "Continuous"   Default     Xdep: "84801_Tx_Air_Vent_Adapter"
+"84803_D10_Sensor_Retainer_Clip_Grundfos_AC2013|84803_D10_Sensor_Retainer_Clip_Grundfos" on       -P   7 (white)        "Continuous"   Default     Xdep: "84803_D10_Sensor_Retainer_Clip_Grundfos_AC2013"
+"84822_Nut_Hex_0.5_in_NPT_Natural_PP|84822_Condensate_Trap_Retaining_Nut" on       -P 151                "Continuous"   Default     Xdep: "84822_Nut_Hex_0.5_in_NPT_Natural_PP"
+
+"84823_Tx_Display_Case_Front|Display Case Front Rev. 1" on       -P 252                "Continuous"   Default     Xdep: "84823_Tx_Display_Case_Front"
+"84824_Tx_Display_Case_Back|Display Case Back Rev. 4" on       -P 252                "Continuous"   Default     Xdep: "84824_Tx_Display_Case_Back"
+"84825_Tx_Display_Graphic_Overlay|Dimension Centerlines" on       -P   7 (white)        "84825_Tx_Display_Graphic_Overlay|CENTER2"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Dimensions" on       -P   7 (white)        "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Dimensions Detail Border" on       -P   7 (white)        "84825_Tx_Display_Graphic_Overlay|BORDER"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+
+"84825_Tx_Display_Graphic_Overlay|display case back front view-HID" on       -P   7 (white)        "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+Press ENTER to continue:
+"84825_Tx_Display_Graphic_Overlay|display case back front view-VIS" on       -P   7 (white)        "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Display Case Back Rev. 1" on       -P 252                "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Display Overlay" on       -P 255                "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Display Overlay Adhesive" on       -P   9                "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+
+"84825_Tx_Display_Graphic_Overlay|Display Overlay Button Borders" on       -P 250                "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Display Overlay Button Symbols" on       -P 250                "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Display Overlay Buttons" on       -P 252                "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Display Overlay Text" on       -P 250                "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Title Block" on       -P   7 (white)        "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+
+"84825_Tx_Display_Graphic_Overlay|Title Block Border" on       -P   7 (white)        "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Title Block Text" on       -P   7 (white)        "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84825_Tx_Display_Graphic_Overlay|Viewport Border" on            7 (white)        "Continuous"   Default     Xdep: "84825_Tx_Display_Graphic_Overlay"
+"84826_Screw_#6_0.3125_in_lg_Steel_Zinc_Philips_Trilobe_Plastic|84826 Screw_#4_0.25_in_lg_Steel_Zinc_Philips_Trilobe_Plastic" on       -P   9                "Continuous"   Default     Xdep: "84826_Screw_#6_0.3125_in_lg_Steel_Zinc_Philips_Trilobe_Plastic"
+"84861_Wire_Standoff_Panduit_WS25-75-C|84861_Wire_Standoff_Panduit_WS25-75-C" on       -P   9                "Continuous"   Default     Xdep: "84861_Wire_Standoff_Panduit_WS25-75-C"
+
+"84905_Hole_Plug_Oval_55mmx30mm_TRW_2844083810|84905 Hole Plug Oval 55mm x 30mm TRW 2844083810" on       -P 250                "Continuous"   Default     Xdep: "84905_Hole_Plug_Oval_55mmx30mm_TRW_2844083810"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|84972_Tx_ASME_Isothermic_non-combi_Outlet_Pipe_25mm" on       -P  30                "Continuous"   Default     Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|Dimension Centerlines" on       -P   7 (white)        "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|CENTER2"   Default     Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|Dimensions" on       -P   7 (white)        "Continuous"   Default     Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|MD_Annotation" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+Press ENTER to continue:
+
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|MD_Hatching" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|MD_Hidden" on       -P   7 (white)        "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|HIDDEN2"  0.350 mm.    Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|MD_Hidden Narrow" on       -P   7 (white)        "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|HIDDEN2"  0.250 mm.    Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|MD_Visible" on       -P   7 (white)        "Continuous"  0.500 mm.    Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|MD_Visible Narrow" on       -P   7 (white)        "Continuous"  0.350 mm.    Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|Title Block" on       -P   7 (white)        "Continuous"   Default     Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|Title Block Border" on       -P   7 (white)        "Continuous"   Default     Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm|Title Block Text" on       -P   7 (white)        "Continuous"   Default     Xdep: "84972_ISO Asme_Outlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|84973_Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm" on       -P  30                "Continuous"   Default     Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|Dimension Centerlines" on       -P   7 (white)        "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|CENTER2"   Default     Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|Dimensions" on       -P   7 (white)        "Continuous"   Default     Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|MD_Annotation" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|MD_Hatching" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|MD_Hidden" on       -P   7 (white)        "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|HIDDEN2"  0.350 mm.    Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|MD_Hidden Narrow" on       -P   7 (white)        "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|HIDDEN2"  0.250 mm.    Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|MD_Visible" on       -P   7 (white)        "Continuous"  0.500 mm.    Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|MD_Visible Narrow" on       -P   7 (white)        "Continuous"  0.350 mm.    Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|Title Block" on       -P   7 (white)        "Continuous"   Default     Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+Press ENTER to continue:
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|Title Block Border" on       -P   7 (white)        "Continuous"   Default     Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|Title Block Text" on       -P   7 (white)        "Continuous"   Default     Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+
+"84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm|Viewport Border" on            7 (white)        "Continuous"   Default     Xdep: "84973_ISO_Asme_Inlet_Pipe_Non-Combi_FIDT_25mm"
+"84975_Clip_Fast_Connect_Tx_Isothermic_3+1-5+1_GMnn-nn-nnn-nn - Copy|nnnnn_Clip_Fast_Connect_Tx_Isothermic_3+1-5+1_GMnn-nn-nnn-nn" on       -P   9                "Continuous"   Default     Xdep: "84975_Clip_Fast_Connect_Tx_Isothermic_3+1-5+1_GMnn-nn-nnn-nn - Copy"
+"84976_O-ring_Tx_Isothermic_3+1-5+1_GMnn-nn-nnn-nn|nnnnn_O-ring_Tx_Isothermic_3+1-5+1_GMnn-nn-nnn-nn" on       -P 250                "Continuous"   Default     Xdep: "84976_O-ring_Tx_Isothermic_3+1-5+1_GMnn-nn-nnn-nn"
+"Defpoints"        on            7 (white)        "Continuous"   Default
+"Tx 5+1(non-combi) Top|Tx 5+1 non-combi Top" on       -P 252                "Continuous"   Default     Xdep: "Tx 5+1(non-combi) Top"
+
+"Tx Control Panel R1 Angle Bracket|Control Panel R1 - Angle Bracket" on       -P 252                "Continuous"   Default     Xdep: "Tx Control Panel R1 Angle Bracket"
+"Tx Control Panel R1|Control Panel R1" on       -P 252                "Continuous"   Default     Xdep: "Tx Control Panel R1"
+"Tx Field Connection Panel|Field Connection Panel" on       -P 252                "Continuous"   Default     Xdep: "Tx Field Connection Panel"
+"Tx Left Side|Tx Left Side" on       -P 252                "Continuous"   Default     Xdep: "Tx Left Side"
+"Tx non-combi common parts_AC2013|83426 Air Inlet Pipe 1.5 in. PVC DWV Sch. 40" on       -P   9                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+
+"Tx non-combi common parts_AC2013|83650 Air Inlet Pipe 2 in. PVC DWV Sch. 40" on       -P   9                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx non-combi common parts_AC2013|84476 Low Voltage Molex 39100-1209 (2 pos. cut off)" on       -P 254                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx non-combi common parts_AC2013|Back" on       -P   9                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx non-combi common parts_AC2013|Display Mounting Bracket 16ga." on       -P   9                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx non-combi common parts_AC2013|Display Support Bracket 20ga." on       -P 252                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+
+"Tx non-combi common parts_AC2013|Front Cover" on       -P 252                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+Press ENTER to continue:
+"Tx non-combi common parts_AC2013|Front Cover End Bottom" on       -P 252                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx non-combi common parts_AC2013|Front Cover Rivets" on       -P   9                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx non-combi common parts_AC2013|Front Cover Top" on       -P 252                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx non-combi common parts_AC2013|Wall Mounting Clip" on       -P   9                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+
+"Tx non-combi common parts_AC2013|Wall Mounting Support" on       -P   9                "Continuous"   Default     Xdep: "Tx non-combi common parts_AC2013"
+"Tx Right Side|Tx Right Side" on       -P 252                "Continuous"   Default     Xdep: "Tx Right Side"
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|Dimension Centerlines" on       -P   7 (white)        "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|DASHDOT2"   Default     Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|Dimensons" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|MD_Annotation" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|MD_Hatching" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|MD_Visible" on       -P   7 (white)        "Continuous"  0.500 mm.    Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|Title Block" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|Title Block Border" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|Title Block Text" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+
+"Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector|Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector" on       -P  40                "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-combi_Inlet_Pipe_25mm_PS_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|Dimensions" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|Dimesnsion Centerlines" on       -P   7 (white)        "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|CENTER2"   Default     Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|MD_Annotation" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|MD_Hatching" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+Press ENTER to continue:
+
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|MD_Hidden" on       -P   7 (white)        "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|HIDDEN2"  0.350 mm.    Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|MD_Visible" on       -P   7 (white)        "Continuous"  0.500 mm.    Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|Title Block Border" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|Title Block Text" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector" on       -P  40                "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+
+"Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector|Viewport Border" on            7 (white)        "Continuous"   Default     Xdep: "Tx_ASME_Isothermic_non-Combi_Pipe_Flanged_Connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|ADSK_ASSOC_ENTITY_BACKUPS" Frozen   -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|Dimension Centerlines" on       -P   7 (white)        "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|CENTER2"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|Dimensions" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|MD_Annotation" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|MD_Hatching" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|MD_Hidden" on       -P   7 (white)        "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|HIDDEN2"  0.350 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|MD_Visible" on       -P   7 (white)        "Continuous"  0.500 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|Title Block Border" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|Title Block Text" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|Tx_Isothermic_ASME_Fast_Connect_O-ring_Groove_Connector" on       -P  40                "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect_O-ring_connector|Tx_Isothermic_ASME_Fast_Connect_Pipe_23x1" on       -P  40                "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect_O-ring_connector"
+"Tx_Isothermic_ASME_Fast_Connect|ADSK_ASSOC_ENTITY_BACKUPS" Frozen   -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+Press ENTER to continue:
+"Tx_Isothermic_ASME_Fast_Connect|Dimension Centerlines" on       -P   7 (white)        "Tx_Isothermic_ASME_Fast_Connect|CENTER2"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Tx_Isothermic_ASME_Fast_Connect|Dimensions" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+
+"Tx_Isothermic_ASME_Fast_Connect|MD_Annotation" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Tx_Isothermic_ASME_Fast_Connect|MD_Hatching" on       -P   7 (white)        "Continuous"  0.250 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Tx_Isothermic_ASME_Fast_Connect|MD_Hidden" on       -P   7 (white)        "Tx_Isothermic_ASME_Fast_Connect|HIDDEN2"  0.350 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Tx_Isothermic_ASME_Fast_Connect|MD_Visible" on       -P   7 (white)        "Continuous"  0.500 mm.    Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Tx_Isothermic_ASME_Fast_Connect|Title Block Border" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+
+"Tx_Isothermic_ASME_Fast_Connect|Title Block Text" on       -P   7 (white)        "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Tx_Isothermic_ASME_Fast_Connect|Tx_Isothermic_ASME_Fast_Connect_O-ring_Groove_Connector" on       -P  40                "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Tx_Isothermic_ASME_Fast_Connect|Tx_Isothermic_ASME_Fast_Connect_Pipe_23x1" on       -P  40                "Continuous"   Default     Xdep: "Tx_Isothermic_ASME_Fast_Connect"
+"Viewport Border"  on          252                "Continuous"   Default
+
+Current layer: "0"
+
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile]:
+
+Command:
+Command:
+Command: _ai_selall Selecting objects...done.
+
+Command: *Cancel*
+
+Command:
