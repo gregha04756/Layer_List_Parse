@@ -15,6 +15,25 @@ TCHAR szWindowClass[MAX_LOADSTRING];			// the main window class name
 
 // Forward declarations of functions included in this code module:
 INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
+
+
+BOOL Is_a_SKU_line(std::string& someline, long& some_SKU, int& nSKU_len)
+{
+	std::string::size_type n;
+	BOOL b_r = TRUE;
+	nSKU_len = (int)0;
+	n = someline.find("_");
+	b_r = !(std::string::npos == n);
+	if (b_r)
+	{
+		some_SKU = strtol(someline.substr(0, n).c_str(), NULL, 10);
+		nSKU_len = (int)n;
+	}
+	return b_r;
+}
+
+
+
 #if 0
 void ReportError(DWORD dwError)
 {
@@ -102,7 +121,6 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	DWORD dw_error;
 	HRESULT hres_result;
 	int int_result;
-	int int_index;
 	static OPENFILENAME ofn;
 	static TCHAR szOpenDlgFileName[MAX_PATH];
 	std::wstring wstr_File_Results;
@@ -119,7 +137,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	static std::list<long int>* lp_li_pn;
 	static std::list<long int>::iterator it_pn;
 	long int li_this_pn;
-	LRESULT l_r;
+	int n_SKU_len;
 
 	switch (message)
 	{
@@ -305,11 +323,12 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 				}
 
 /*
-See if there is a SKU at beginning of line (first 5 characters). Don't repeat lines with the same SKU.
+See if there is a SKU at beginning of line, numerical value followed by an underscore '_'. Don't repeat lines with the same SKU.
 Furthermore only save lines that contain a SKU number.
 */
-				if ( (SKUS == selected_layer) && (0L != (li_this_pn = strtol(ifline.substr(0,5).c_str(),NULL,10))) )
+				if (SKUS == selected_layer && Is_a_SKU_line(ifline, li_this_pn, n_SKU_len))
 				{
+/*					if (0L != (li_this_pn = strtol(ifline.substr(0, 5).c_str(), NULL, 10))) */
 					b_match_pn = false;
 					for ( it_pn = lp_li_pn->begin(); it_pn != lp_li_pn->end(); it_pn++ )
 					{
