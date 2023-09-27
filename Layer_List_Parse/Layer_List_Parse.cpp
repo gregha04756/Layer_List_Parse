@@ -17,7 +17,7 @@ TCHAR szWindowClass[MAX_LOADSTRING];			// the main window class name
 INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
 
 
-BOOL Is_a_SKU_line(std::string& someline, long& some_SKU, int& nSKU_len)
+BOOL Is_a_SKU_line(std::string& someline, DWORDLONG& some_SKU, int& nSKU_len)
 {
 	std::string::size_type n;
 	BOOL b_r = TRUE;
@@ -26,7 +26,7 @@ BOOL Is_a_SKU_line(std::string& someline, long& some_SKU, int& nSKU_len)
 	b_r = !(std::string::npos == n);
 	if (b_r)
 	{
-		some_SKU = strtol(someline.substr(0, n).c_str(), NULL, 10);
+		some_SKU = std::strtoll(someline.substr(0, n).c_str(), NULL, 10);
 		nSKU_len = (int)n;
 	}
 	return b_r;
@@ -134,15 +134,15 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	static std::ifstream* lpinfile;
 	static std::ofstream* lpoutfile;
 	static char* lp_ch_filename;
-	static std::list<long int>* lp_li_pn;
-	static std::list<long int>::iterator it_pn;
-	long int li_this_pn;
+	static std::list<DWORDLONG>* lp_li_pn;
+	static std::list<DWORDLONG>::iterator it_pn;
+	DWORDLONG li_this_pn;
 	int n_SKU_len;
 
 	switch (message)
 	{
 	case WM_INITDIALOG:
-		selected_layer = SKUS;
+		selected_layer = Layer_IDs::SKUS;
 		Button_SetCheck(GetDlgItem(hDlg,IDC_BTN_SKUS),BST_CHECKED);
 		b_success = true;
 		int_strlen = 0;
@@ -153,11 +153,11 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	case WM_COMMAND:
 		if ( (LOWORD(wParam) == IDC_BTN_SKUS) && (HIWORD(wParam) == BN_CLICKED) )
 		{
-			selected_layer = SKUS;
+			selected_layer = Layer_IDs::SKUS;
 		}
 		if ( (LOWORD(wParam) == IDC_BTN_NONSKUS) && (HIWORD(wParam) == BN_CLICKED) )
 		{
-			selected_layer = NONSKUS;
+			selected_layer = Layer_IDs::NONSKUS;
 		}
 		if ( (LOWORD(wParam) == IDC_BTNBROWSE) && (HIWORD(wParam) == BN_CLICKED) )
 		{
@@ -198,7 +198,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 			}
 			try
 			{
-				lp_li_pn = (std::list<long int>*)new std::list<long int>; 
+				lp_li_pn = (std::list<DWORDLONG>*)new std::list<DWORDLONG>; 
 			}
 			catch (std::bad_alloc &ba)
 			{
@@ -263,7 +263,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 			if ( b_success )
 			{
 				str_Out_Name.assign(str_In_Name);
-				str_Out_Name.insert(str_In_Name.find(".txt"),(SKUS==selected_layer)?"-parsed_SKUS":"-parsed_NONSKUS");
+				str_Out_Name.insert(str_In_Name.find(".txt"),(Layer_IDs::SKUS==selected_layer)?"-parsed_SKUS":"-parsed_NONSKUS");
 				try
 				{
 					lpoutfile = (std::ofstream*)new ofstream();
@@ -326,7 +326,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 See if there is a SKU at beginning of line, numerical value followed by an underscore '_'. Don't repeat lines with the same SKU.
 Furthermore only save lines that contain a SKU number.
 */
-				if (SKUS == selected_layer && Is_a_SKU_line(ifline, li_this_pn, n_SKU_len))
+				if (Layer_IDs::SKUS == selected_layer && Is_a_SKU_line(ifline, li_this_pn, n_SKU_len))
 				{
 /*					if (0L != (li_this_pn = strtol(ifline.substr(0, 5).c_str(), NULL, 10))) */
 					b_match_pn = false;
@@ -385,7 +385,7 @@ Furthermore only save lines that contain a SKU number.
 						}
 					}
 				}
-				if ( (NONSKUS == selected_layer) && (0L == (li_this_pn = strtol(ifline.substr(0,5).c_str(),NULL,10))) )
+				if ( (Layer_IDs::NONSKUS == selected_layer) && !Is_a_SKU_line(ifline, li_this_pn, n_SKU_len))
 				{
 					if ( ifline.length() > 0 )
 					{
@@ -416,7 +416,7 @@ Furthermore only save lines that contain a SKU number.
 					b_result = ::SetDlgItemText(hDlg,IDC_TXTFILESTATUS,szOpenDlgFileName);
 					wstr_File_Results.assign(_T("File processed ok. "));
 					int_result = (int)lp_li_pn->size();
-					wstr_File_Results += std::to_wstring((long long)int_result);
+					wstr_File_Results += std::to_wstring((DWORDLONG)int_result);
 					wstr_File_Results += _T(" SKU numbers found");
 					b_result = ::SetDlgItemText(hDlg,IDC_TXTPROCESSRESULT,wstr_File_Results.c_str());
 				}
