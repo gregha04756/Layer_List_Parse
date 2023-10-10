@@ -19,6 +19,7 @@ INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
 
 BOOL Is_a_SKU_line(std::string& someline, DWORDLONG& some_SKU, int& nSKU_len)
 {
+	std::string chk_str;
 	std::string::size_type n;
 	BOOL b_r = TRUE;
 	nSKU_len = (int)0;
@@ -26,8 +27,9 @@ BOOL Is_a_SKU_line(std::string& someline, DWORDLONG& some_SKU, int& nSKU_len)
 	b_r = !(std::string::npos == n);
 	if (b_r)
 	{
+		chk_str = someline.substr(0, n).c_str();
 		some_SKU = std::strtoll(someline.substr(0, n).c_str(), NULL, 10);
-		nSKU_len = (int)n;
+		nSKU_len = (int)n * (int)(!(0 == some_SKU));
 	}
 	return b_r;
 }
@@ -330,7 +332,7 @@ Furthermore only save lines that contain a SKU number.
 				{
 /*					if (0L != (li_this_pn = strtol(ifline.substr(0, 5).c_str(), NULL, 10))) */
 					b_match_pn = false;
-					for ( it_pn = lp_li_pn->begin(); it_pn != lp_li_pn->end(); it_pn++ )
+					for ( it_pn = lp_li_pn->begin(); (0 < n_SKU_len) && (it_pn != lp_li_pn->end()); it_pn++ )
 					{
 						if ( *it_pn == li_this_pn )
 						{
