@@ -15,6 +15,28 @@ TCHAR szWindowClass[MAX_LOADSTRING];			// the main window class name
 
 // Forward declarations of functions included in this code module:
 INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
+
+
+BOOL Is_a_SKU_line(std::string& someline, DWORDLONG& some_SKU, int& nSKU_len)
+{
+	std::string chk_str;
+	std::string::size_type n;
+	BOOL b_r = TRUE;
+	nSKU_len = (int)0;
+	n = someline.find("_");
+	b_r = !(std::string::npos == n);
+	if (b_r)
+	{
+		chk_str = someline.substr(0, n).c_str();
+		some_SKU = std::strtoll(someline.substr(0, n).c_str(), NULL, 10);
+		nSKU_len = (int)n * (int)(!(0 == some_SKU));
+		b_r = !(0 == some_SKU);
+	}
+	return b_r;
+}
+
+
+
 #if 0
 void ReportError(DWORD dwError)
 {
@@ -102,7 +124,6 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	DWORD dw_error;
 	HRESULT hres_result;
 	int int_result;
-	int int_index;
 	static OPENFILENAME ofn;
 	static TCHAR szOpenDlgFileName[MAX_PATH];
 	std::wstring wstr_File_Results;
@@ -116,30 +137,32 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	static std::ifstream* lpinfile;
 	static std::ofstream* lpoutfile;
 	static char* lp_ch_filename;
-	static std::list<long int>* lp_li_pn;
-	static std::list<long int>::iterator it_pn;
-	long int li_this_pn;
-	LRESULT l_r;
+	static std::list<DWORDLONG>* lp_li_pn;
+	static std::list<DWORDLONG>::iterator it_pn;
+	static DWORDLONG n_Non_SKU_lines;
+	DWORDLONG li_this_pn;
+	int n_SKU_len;
 
 	switch (message)
 	{
 	case WM_INITDIALOG:
-		selected_layer = SKUS;
+		selected_layer = Layer_IDs::SKUS;
 		Button_SetCheck(GetDlgItem(hDlg,IDC_BTN_SKUS),BST_CHECKED);
 		b_success = true;
 		int_strlen = 0;
 		lpinfile = NULL;
 		lpoutfile = NULL;
+		n_Non_SKU_lines = 0LL;
 		pv_temp = SecureZeroMemory((PVOID)szOpenDlgFileName,sizeof(szOpenDlgFileName));
 		return (INT_PTR)TRUE;
 	case WM_COMMAND:
 		if ( (LOWORD(wParam) == IDC_BTN_SKUS) && (HIWORD(wParam) == BN_CLICKED) )
 		{
-			selected_layer = SKUS;
+			selected_layer = Layer_IDs::SKUS;
 		}
 		if ( (LOWORD(wParam) == IDC_BTN_NONSKUS) && (HIWORD(wParam) == BN_CLICKED) )
 		{
-			selected_layer = NONSKUS;
+			selected_layer = Layer_IDs::NONSKUS;
 		}
 		if ( (LOWORD(wParam) == IDC_BTNBROWSE) && (HIWORD(wParam) == BN_CLICKED) )
 		{
@@ -180,7 +203,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 			}
 			try
 			{
-				lp_li_pn = (std::list<long int>*)new std::list<long int>; 
+				lp_li_pn = (std::list<DWORDLONG>*)new std::list<DWORDLONG>; 
 			}
 			catch (std::bad_alloc &ba)
 			{
@@ -245,7 +268,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 			if ( b_success )
 			{
 				str_Out_Name.assign(str_In_Name);
-				str_Out_Name.insert(str_In_Name.find(".txt"),(SKUS==selected_layer)?"-parsed_SKUS":"-parsed_NONSKUS");
+				str_Out_Name.insert(str_In_Name.find(".txt"),(Layer_IDs::SKUS==selected_layer)?"-parsed_SKUS":"-parsed_NONSKUS");
 				try
 				{
 					lpoutfile = (std::ofstream*)new ofstream();
@@ -269,6 +292,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 					return (INT_PTR)TRUE;
 				}
 			}
+			n_Non_SKU_lines = 0LL;
 			while ( b_success && !lpinfile->eof() )
 			{
 				try
@@ -305,13 +329,14 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 				}
 
 /*
-See if there is a SKU at beginning of line (first 5 characters). Don't repeat lines with the same SKU.
+See if there is a SKU at beginning of line, numerical value followed by an underscore '_'. Don't repeat lines with the same SKU.
 Furthermore only save lines that contain a SKU number.
 */
-				if ( (SKUS == selected_layer) && (0L != (li_this_pn = strtol(ifline.substr(0,5).c_str(),NULL,10))) )
+				if (Layer_IDs::SKUS == selected_layer && Is_a_SKU_line(ifline, li_this_pn, n_SKU_len))
 				{
+/*					if (0L != (li_this_pn = strtol(ifline.substr(0, 5).c_str(), NULL, 10))) */
 					b_match_pn = false;
-					for ( it_pn = lp_li_pn->begin(); it_pn != lp_li_pn->end(); it_pn++ )
+					for ( it_pn = lp_li_pn->begin(); (0 < n_SKU_len) && (it_pn != lp_li_pn->end()); it_pn++ )
 					{
 						if ( *it_pn == li_this_pn )
 						{
@@ -366,10 +391,11 @@ Furthermore only save lines that contain a SKU number.
 						}
 					}
 				}
-				if ( (NONSKUS == selected_layer) && (0L == (li_this_pn = strtol(ifline.substr(0,5).c_str(),NULL,10))) )
+				if ( (Layer_IDs::NONSKUS == selected_layer) && !Is_a_SKU_line(ifline, li_this_pn, n_SKU_len))
 				{
 					if ( ifline.length() > 0 )
 					{
+						n_Non_SKU_lines++;
 						try
 						{
 							ifline.append("\n");
@@ -397,8 +423,10 @@ Furthermore only save lines that contain a SKU number.
 					b_result = ::SetDlgItemText(hDlg,IDC_TXTFILESTATUS,szOpenDlgFileName);
 					wstr_File_Results.assign(_T("File processed ok. "));
 					int_result = (int)lp_li_pn->size();
-					wstr_File_Results += std::to_wstring((long long)int_result);
-					wstr_File_Results += _T(" SKU numbers found");
+					wstr_File_Results += std::to_wstring((DWORDLONG)int_result);
+					wstr_File_Results += _T(" SKU lines found. ");
+					wstr_File_Results += std::to_wstring(n_Non_SKU_lines);
+					wstr_File_Results += _T(" Non-SKU lines found. ");
 					b_result = ::SetDlgItemText(hDlg,IDC_TXTPROCESSRESULT,wstr_File_Results.c_str());
 				}
 			}

@@ -2,7 +2,7 @@
 
 #include "resource.h"
 
-typedef enum Layer_IDs {
+enum class Layer_IDs {
 	SKUS = 0,
 	NONSKUS = 1
-};
+} ;
