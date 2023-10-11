@@ -139,6 +139,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	static char* lp_ch_filename;
 	static std::list<DWORDLONG>* lp_li_pn;
 	static std::list<DWORDLONG>::iterator it_pn;
+	static DWORDLONG n_Non_SKU_lines;
 	DWORDLONG li_this_pn;
 	int n_SKU_len;
 
@@ -151,6 +152,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 		int_strlen = 0;
 		lpinfile = NULL;
 		lpoutfile = NULL;
+		n_Non_SKU_lines = 0LL;
 		pv_temp = SecureZeroMemory((PVOID)szOpenDlgFileName,sizeof(szOpenDlgFileName));
 		return (INT_PTR)TRUE;
 	case WM_COMMAND:
@@ -290,6 +292,7 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 					return (INT_PTR)TRUE;
 				}
 			}
+			n_Non_SKU_lines = 0LL;
 			while ( b_success && !lpinfile->eof() )
 			{
 				try
@@ -392,6 +395,7 @@ Furthermore only save lines that contain a SKU number.
 				{
 					if ( ifline.length() > 0 )
 					{
+						n_Non_SKU_lines++;
 						try
 						{
 							ifline.append("\n");
@@ -420,7 +424,9 @@ Furthermore only save lines that contain a SKU number.
 					wstr_File_Results.assign(_T("File processed ok. "));
 					int_result = (int)lp_li_pn->size();
 					wstr_File_Results += std::to_wstring((DWORDLONG)int_result);
-					wstr_File_Results += _T(" SKU numbers found");
+					wstr_File_Results += _T(" SKU lines found. ");
+					wstr_File_Results += std::to_wstring(n_Non_SKU_lines);
+					wstr_File_Results += _T(" Non-SKU lines found. ");
 					b_result = ::SetDlgItemText(hDlg,IDC_TXTPROCESSRESULT,wstr_File_Results.c_str());
 				}
 			}
