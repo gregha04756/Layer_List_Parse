@@ -30,6 +30,7 @@ BOOL Is_a_SKU_line(std::string& someline, DWORDLONG& some_SKU, int& nSKU_len)
 		chk_str = someline.substr(0, n).c_str();
 		some_SKU = std::strtoll(someline.substr(0, n).c_str(), NULL, 10);
 		nSKU_len = (int)n * (int)(!(0 == some_SKU));
+		b_r = !(0 == some_SKU);
 	}
 	return b_r;
 }
